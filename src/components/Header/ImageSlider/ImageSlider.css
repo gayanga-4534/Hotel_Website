@@ -1,0 +1,76 @@
+.slider-image {
+    position: relative;
+    width: 100%; /* Adjust the width to your desired size */
+    height: 500px; /* Adjust the height to your desired size */
+  }
+
+  .slick-prev,
+.slick-next {
+ 
+  color: #fff; /* Arrow color */
+
+  padding: 10px 15px; /* Adjust padding to change the arrow size */
+  border-radius: 50%; /* Make the arrow container a circle */
+  z-index: 1; /* Ensure the arrows are above the slides */
+}
+
+.slick-prev {
+  left: 20px; /* Adjust the position of the left arrow */
+}
+
+.slick-next {
+  right: 20px; /* Adjust the position of the right arrow */
+}
+
+/* Change the position of the dots to top right */
+.slick-dots {
+
+    top: 40px; /* Adjust the top value to change the vertical position */
+    right: -500px; /* Adjust the right value to change the horizontal position */
+  }
+  
+  /* Adjust the left property to change the space between dots */
+  .slick-dots li {
+    margin: 0 10px; /* Adjust this to change the space between dots */
+  }
+
+
+  .slider-text {
+    position: relative;
+    top: -300px; 
+  left: -20%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+ 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+  .slider-text-title {
+    position: relative;
+    top: -280px; 
+  left: -10%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 44px; 
+ 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+  
+  .slider-Date {
+    position: absolute;
+    z-index: 3;
+    top: 490px; /* Adjust this value to position it as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(12, 10, 10);
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding:8px;
+    margin: 0.5%;
+    width: 90%;
+    /* border-radius: 5px; */
+  }
+
+  

@@ -1,0 +1,38 @@
+.Accommodation-modal{
+    top: 55px;
+    position: absolute;
+    background-color: rgb(249, 249, 250);
+    width: 280px;
+    height: 300px;
+
+}
+
+.accommodation-button {
+    width: 250px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+    background-color: #f8f9fa;
+    color: rgb(14, 1, 1);
+    font-size: 13px;
+    border: none;
+    outline: none; /* Remove the focus outline if needed */
+  }
+  
+  .custom-profile-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    height: 50px; 
+    width: 30px;
+}
+
+.accommodation-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+.count-button{
+   
+    display: flex;
+    flex-direction: row;
+}

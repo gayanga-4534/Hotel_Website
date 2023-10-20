@@ -1,0 +1,54 @@
+.offers-container{
+    display: flex;
+    flex-direction: row;
+}
+.offers-image{
+    width: 90%;
+    height: 260px;
+}
+.offers-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .offer-text1,
+  .offer-text2,
+  .offer-text3,
+  offer-text4 {
+    margin: 10px;
+    width: 300px;
+  }
+
+
+  .offer-text3{
+    font-size: 14px;
+    color: #3f3737;
+  }
+  /* Button.css */
+
+.border-button {
+    margin: 10px;
+    background-color: transparent; /* Set the background to transparent */
+    color: #b98902; /* Set the text color to white */
+    padding: 10px 20px; /* Adjust the padding as needed for the button size */
+    border: 2px solid #7a5e02; /* Set the border to red */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .border-button:hover {
+    background-color: #e0d7d7; /* Change the background color to red on hover */
+    color: #fff; /* Set the text color to white on hover */
+  }
+  .offers-title {
+    font-size: 37px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Set the text color */
+    margin: 80px; /* Horizontally center the title */
+    text-align: center; /* Center the text within its container */
+  }

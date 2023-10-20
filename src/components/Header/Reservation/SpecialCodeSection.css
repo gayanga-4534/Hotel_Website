@@ -1,0 +1,99 @@
+.specialCode-modal{
+    top: 55px;
+    /* display: flex; */
+    position: absolute;
+    background-color: rgb(249, 249, 250);
+    width: 280px;
+    height: 300px;
+    /* border: 0.1px solid #000; */
+}
+
+.specialCode-button {
+    width: 250px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+    background-color: #f8f9fa;
+    color: rgb(14, 1, 1);
+    font-size: 13px;
+    border: none;
+    outline: none; /* Remove the focus outline if needed */
+  }
+  
+  .tag-profile-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    height: 50px; 
+    width: 30px;
+}
+
+.special-container{
+    display: flex;
+    flex-direction: row;
+}
+.cross-icon-button{
+ 
+    margin-left: 250px;
+}
+
+/* styles.css */
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .input-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    margin: 10px;
+  }
+  
+  .input-field::placeholder {
+    color: #999;
+  }
+  
+  /* styles.css */
+.dropdown-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .dropdown-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-select {
+    height: 40px;
+    width: 235px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    margin: 10px;
+  }
+  
+  /* Style for options */
+  .dropdown-select option {
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Style for the selected option */
+  .dropdown-select:focus {
+    border: 2px solid #007bff;
+  }
+  

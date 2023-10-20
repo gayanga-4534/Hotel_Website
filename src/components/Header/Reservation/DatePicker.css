@@ -1,0 +1,25 @@
+.custom-datepicker {
+    height: 50px; 
+  }
+
+  .react-datepicker-wrapper {
+    border: none; 
+  }
+  
+  .react-datepicker__input-container input {
+    border: none; 
+  }
+
+
+.container{
+    display: flex;
+   flex-direction: row;
+}
+.custom-datepicker-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    height: 52px; 
+    width: 50px;
+}

@@ -1,0 +1,90 @@
+.destination-title {
+  text-align: center;
+  font-style: italic;
+  font-size: 44px;
+  font-weight: bold;
+  color: rgb(107, 21, 81);
+  margin-top: -50px;
+}
+
+.maldives-image {
+  height: 500px; /* Set your desired height */
+  width: 700px; /* Set your desired width */
+  display: block; /* This ensures the image is treated as a block element */
+  margin-left: auto; /* Auto left margin centers the image horizontally */
+  margin-right: auto;
+  margin-top: 50px;
+}
+/* HotelDestinationSection.css */
+
+/* Style the select element */
+select {
+    height: 60px;
+    width: 50%; /* Set the width to 50% */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    display: block; /* Display as a block-level element */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Style the select options */
+  select option {
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Style when the select is focused */
+  select:focus {
+    outline: none;
+    border: 1px solid #007bff; /* Change this color to your desired focus color */
+  }
+  
+  
+  
+  .destination-card {
+    top: 900px;
+    right: 0; 
+    position: absolute;
+    width: 280px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add or adjust the shadow here */
+    text-align: center;
+  }
+  
+  .card-title {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(107, 21, 81);
+    margin: 5px;
+  }
+  
+
+  .blue-button {
+    background-color: #280085; /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    font-style: italic;
+    margin: 30px;
+    height: 57px;
+  }
+  
+  .blue-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+
+  .card-desc{
+    margin: 20px;
+    font-size: 20px;
+  }
